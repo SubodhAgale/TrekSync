@@ -40,7 +40,6 @@ Before you begin, ensure you have met the following requirements:
 
 - [Node.js](https://nodejs.org/) installed (version 12 or higher).
 - [Git](https://git-scm.com/) installed.
-- [MongoDB](https://www.mongodb.com/) installed locally or access to a MongoDB instance.
 
 ### Installation
 
