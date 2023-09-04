@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.c-webname
+{
+  
+  font-size:35px;
+  color: #ffffff;
+  font-weight: bold;
+  font-family: 'Itim', cursive;
+  /* font-family: 'Euphoria Script', cursive; */
+  letter-spacing: 2px;
+  margin-left : 100px;
+  transition: all 0.5s ease;  
+
+}
+
+ ul li .c-navlink{
+  position: relative;
+  display: block;
+  font-weight: 600;
+  font-size:17px;
+  color: #ffffff;
+  font-family: 'Itim', cursive;
+  /* font-family: 'Sansita Swashed', cursive; */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  text-decoration: none;
+  transition: color 0.5s ease;    
+}
+
+ul li .c-navlink:hover
+{
+     font-weight: 700;
+     text-shadow: 1px 1px 2px	#E8E8E8;
+
+}
+
+.c-navcolor
+{
+  opacity : 0.7;
+   background-color: #282c34; 
+   z-index: 999;
+  /* background-color: #dcb5ff; */
+}
+
+
