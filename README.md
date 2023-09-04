@@ -62,23 +62,14 @@ Before you begin, ensure you have met the following requirements:
    npm install
    ```
 
-4. Create a `.env` file in the project root directory and configure the following environment variables:
 
-   ```env
-   PORT=3000
-   MONGODB_URI=your_mongodb_connection_string
-   JWT_SECRET=your_secret_key
-   ```
-
-   Replace `your_mongodb_connection_string` and `your_secret_key` with your MongoDB connection string and a secure secret key.
-
-5. Start the development server:
+4. Start the development server:
 
    ```bash
    npm start
    ```
 
-6. The TrekSync application should now be running locally at [http://localhost:3000](http://localhost:3000).
+5. The TrekSync application should now be running locally at [http://localhost:3000](http://localhost:3000).
 
 ## Usage
 
